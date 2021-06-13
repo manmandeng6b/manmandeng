@@ -1,0 +1,41 @@
+body {
+  border-width: 15px;
+  border-color: blue;
+  border-style: dotted;
+}
+a.bubble {
+    text-decoration: none;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 3px;
+    padding: 3px;
+    display: inline-block;
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  body{
+    background-color:lightblue;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  body{
+    background-color:lightgray;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  body{
+    background-color:lightpink;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  body{
+    background-color:lightgreen;
+  }
+}
